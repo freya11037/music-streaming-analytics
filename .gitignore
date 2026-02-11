@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Dataset - too large for GitHub, auto-downloads via notebook
+data/*.csv
+data/*.parquet
+data/*.json
+
 # C extensions
 *.so
 
